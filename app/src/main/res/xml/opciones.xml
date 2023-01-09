@@ -21,6 +21,9 @@
             android:entries="@array/lista"
             android:entryValues="@array/clavelista"/>
         <MultiSelectListPreference
-            android:key="clave4"/>
+            android:key="clave4"
+            android:title="PREFERENCIA 4"
+            android:summary="Descripcion de la preferencia 4"
+            android:dialogTitle="DIA PREFERENCIA"/>
     </PreferenceCategory>
 </PreferenceScreen>

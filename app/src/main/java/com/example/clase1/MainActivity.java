@@ -35,11 +35,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Set<String> opciones = null;
                 SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
-                texto.append("Opcion 1 "+pref.getBoolean("Clave1", false));
-                texto.append("Opcion 2 "+pref.getString("Clave2", "No asignada"));
-                texto.append("Opcion 3 "+pref.getString("Clave3", "No asignada"));
-                texto.append("Opcion 4 "+pref.getStringSet("Clave4", opciones));
-
+                texto.append("Opcion 1 "+pref.getBoolean("clave1", false));
+                texto.append("Opcion 2 "+pref.getString("clave2", "No asignada"));
+                texto.append("Opcion 3 "+pref.getString("clave3", "No asignada"));
+                texto.append("Opcion 4 "+pref.getStringSet("clave4", opciones));
 
             }
         });
